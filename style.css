@@ -1,0 +1,191 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: #443a3a;*/
+    color: #eeeeee;
+    text-align: justify;
+    font-family: 'Comic Sans MS';
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4c4c4c+0,353535+7,666666+17,444444+24,2b2b2b+29,3f3f3f+34,474747+39,2c2c2c+50,383838+60,161616+67,2b2b2b+76,1c1c1c+91,131313+100 */
+    background: rgb(76,76,76); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(76,76,76,1) 0%, rgba(53,53,53,1) 7%, rgba(102,102,102,1) 17%, rgba(68,68,68,1) 24%, rgba(43,43,43,1) 29%, rgba(63,63,63,1) 34%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(56,56,56,1) 60%, rgba(22,22,22,1) 67%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(76,76,76,1) 0%,rgba(53,53,53,1) 7%,rgba(102,102,102,1) 17%,rgba(68,68,68,1) 24%,rgba(43,43,43,1) 29%,rgba(63,63,63,1) 34%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 50%,rgba(56,56,56,1) 60%,rgba(22,22,22,1) 67%,rgba(43,43,43,1) 76%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(76,76,76,1) 0%,rgba(53,53,53,1) 7%,rgba(102,102,102,1) 17%,rgba(68,68,68,1) 24%,rgba(43,43,43,1) 29%,rgba(63,63,63,1) 34%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 50%,rgba(56,56,56,1) 60%,rgba(22,22,22,1) 67%,rgba(43,43,43,1) 76%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+    body::-webkit-scrollbar {
+        width: 1.3em;
+    }
+    body::-webkit-scrollbar-thumb {
+        background-color: rgb(37, 115, 172);
+    }
+
+    body::-webkit-scrollbar-track-piece {
+        background-color: rgb(76,76,76);
+    }
+
+#logo {
+    width: 120px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background: url("Pictures/logo333.png") no-repeat;
+    display: inline-block;
+}
+
+    #logo:hover {
+        transition: 0.3s;
+        background-repeat: no-repeat;
+        background: url("Pictures/logo222.png") no-repeat;
+        box-shadow: 0 4px 80px 5px rgba(107, 100, 100, 0.70), 0 6px 20px 5px rgba(240, 234, 234, 0.70);
+    }
+#menu {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    /*background-color: rgb(37, 115, 172);*/
+    z-index: 1;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0a0799+9,203e99+21,42b3d6+51,276d99+78&1+16,1+19,1+71,0.8+85,0.3+98 */
+    background: -moz-linear-gradient(top, rgba(10,7,153,1) 9%, rgba(23,39,153,1) 16%, rgba(28,53,153,1) 19%, rgba(32,62,153,1) 21%, rgba(66,179,214,1) 51%, rgba(46,127,169,1) 71%, rgba(39,109,153,0.9) 78%, rgba(39,109,153,0.8) 85%, rgba(39,109,153,0.3) 98%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(10,7,153,1) 9%,rgba(23,39,153,1) 16%,rgba(28,53,153,1) 19%,rgba(32,62,153,1) 21%,rgba(66,179,214,1) 51%,rgba(46,127,169,1) 71%,rgba(39,109,153,0.9) 78%,rgba(39,109,153,0.8) 85%,rgba(39,109,153,0.3) 98%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(10,7,153,1) 9%,rgba(23,39,153,1) 16%,rgba(28,53,153,1) 19%,rgba(32,62,153,1) 21%,rgba(66,179,214,1) 51%,rgba(46,127,169,1) 71%,rgba(39,109,153,0.9) 78%,rgba(39,109,153,0.8) 85%,rgba(39,109,153,0.3) 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0799', endColorstr='#4d276d99',GradientType=0 ); /* IE6-9 */
+}
+
+    #menu li, a {
+        border-radius: 10px;
+        display: inline-block;
+        padding: 0px 15px;
+        font-weight: 500;
+        font-size: 20px;
+        text-decoration: none;
+        color: #443a3a;
+        /*color: #ffffff;*/
+    }
+
+        #menu li a:hover {
+            transition: 0.3s;
+            color: #ffffff;
+            text-shadow: 1px 1px 5px black, 0 0 25px blue, 0 0 15px darkblue;
+            box-shadow: 0 4px 80px 5px rgba(107, 100, 100, 0.70), 0 6px 20px 5px rgba(240, 234, 234, 0.70);
+        }
+        #menu li a:active {
+            transition: 1s;
+        }
+h1{
+    font-size: 35px;
+    text-decoration: underline;
+    font-weight: 900;
+    text-align: center;
+}
+
+p {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+#youtube {
+    border-radius: 30px;
+    vertical-align: middle;
+}
+
+    #youtube:hover {
+        transition: 0.3s;
+        box-shadow: 0 4px 80px 5px rgba(107, 100, 100, 0.70), 0 6px 20px 5px rgba(240, 234, 234, 0.70);
+    }
+
+iframe {
+    vertical-align: middle;
+}
+
+    iframe:hover {
+        transition: 0.3s;
+        box-shadow: 0 4px 80px 5px rgba(107, 100, 100, 0.70), 0 6px 20px 5px rgba(240, 234, 234, 0.70);
+    }
+
+.pics {
+    border-radius: 20px;
+    width: 19.5%;
+    vertical-align: middle;
+}
+
+    .pics:hover {
+        transition: 0.3s;
+        box-shadow: 0 4px 80px 5px rgba(107, 100, 100, 0.70), 0 6px 20px 5px rgba(240, 234, 234, 0.70);
+    }
+
+#QRcode {
+    border-radius: 10px;
+    vertical-align: middle;
+}
+    #QRcode:hover {
+        transition: 0.3s;
+        box-shadow: 0 4px 80px 5px rgba(107, 100, 100, 0.70), 0 6px 20px 5px rgba(240, 234, 234, 0.70);
+    }
+    
+.txt {
+    border-radius: 10px;
+    background-color: rgba(60, 42, 42, 0.50);
+    color: #ffffff;
+}
+
+    .txt:hover {
+        transition: 0.3s;
+        box-shadow: 0 4px 80px 5px rgba(107, 100, 100, 0.70), 0 6px 20px 5px rgba(240, 234, 234, 0.70);
+    }
+
+#emoji {
+    height: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgba(60, 42, 42, 0.50);
+}
+    #emoji:hover {
+        transition: 0.3s;
+        box-shadow: 0 4px 80px 5px rgba(107, 100, 100, 0.70), 0 6px 20px 5px rgba(240, 234, 234, 0.70);
+    }
+
+.bttn {
+    padding: 9px 25px;
+    border-radius: 15px;
+    transition: 0.3s;
+    color: #ffffff;
+}
+
+    .bttn:hover {
+        transition: 0.3s;
+        box-shadow: 0 4px 80px 5px rgba(107, 100, 100, 0.70), 0 6px 20px 5px rgba(240, 234, 234, 0.70);
+    }
+
+    .bttn:active {
+        opacity: 0.7;
+    }
+
+#submit {
+    background-color: #2dc6f2;
+}
+
+#reset {
+    background-color: #ff0000;
+}
+
+.questions {
+    font-size: large;
+    text-decoration: underline;
+    padding-left: 35%;
+}
+.answers {
+    padding-left: 20%;
+    padding-right: 10%;
+}
+
+
